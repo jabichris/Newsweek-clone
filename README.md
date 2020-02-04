@@ -4,7 +4,7 @@
 > This is the  project for learning pourposes
 
 
-####Link to live view>
+#### Link to live view
 
 ## Built With
 
@@ -21,7 +21,7 @@
 
 👤 **Christian Jabiro**
 
-- Github: [@jabichris](https://github.com/jabichis)
+- Github: [@jabichris](https://github.com/jabichris)
 - Twitter: [@JabiroChristian](https://twitter.com/JabiroChristian)
 - Linkedin: [Jabiro Christian](https://www.linkedin.com/in/jabiro-christian-b01054115/)
 
