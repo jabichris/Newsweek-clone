@@ -1,8 +1,629 @@
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="assets/styles.css" />
-    </head>
-    <body></body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script
+      src="https://kit.fontawesome.com/e6f879f149.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="row">
+        <div class="col-3">
+          <date>Tue, Feb 04, 2020</date>
+        </div>
+        <div class="col-6">
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 395.6 60"
+            style="enable-background:new 0 0 395.6 60;"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="col-3">
+          <a class="lk-2" href="https://subscription.newsweek.com/auth"
+            >Sign In</a
+          >
+          <a
+            class="lk-3"
+            target="_blank"
+            href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&amp;utm_medium=top-nav&amp;utm_campaign=subscribe-button#12weeks"
+            >Subscribe
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </nav>
+      <nav class="row header-bottom">
+        <ul class="col-9 page-nav">
+          <li class="first leaf  active-trail">
+            <a href="#">U.S.</a>
+          </li>
+          <li class="leaf "><a href="#">World</a></li>
+          <li class="leaf "><a href="#">Business</a></li>
+          <li class="leaf ">
+            <a href="#">Tech &amp; Science</a>
+          </li>
+          <li class="leaf "><a href="#">Culture</a></li>
+          <li class="leaf "><a href="#">Newsgeek</a></li>
+          <li class="leaf "><a href="#">Sports</a></li>
+          <li class="leaf "><a href="#">Health</a></li>
+          <li class="leaf "><a href="#">The Debate</a></li>
+          <li class="leaf "><a href="#">Vantage</a></li>
+          <li class="last leaf "><a href="#">Weather</a></li>
+        </ul>
+        <div class="col-3 search">
+          <label class="element-invisible">Search </label>
+          <input placeholder="Search" type="text" class="form-text" />
+        </div>
+      </nav>
+    </header>
+    <main class="main container-fluid">
+      <div class="colwrap row sticky-scroll">
+        <div class="col4">
+          <div class="row">
+            <div class="col1">
+              <div class="sticky1">
+                <div class="block block-nw">
+                  <div class="content">
+                    <div class="feature2">
+                      <div class="block-title">
+                        FEATURED STORIES
+                      </div>
+                      <article>
+                        <div class="wrap">
+                          <div class="category">
+                            <a href="#">U.S.</a>
+                          </div>
+                          <div class="image">
+                            <a href="#">
+                              <img src="./assets/images/donald-trump.webp" />
+                            </a>
+                          </div>
+                        </div>
+                        <h3>
+                          <a
+                            href="/trump-supreme-court-tax-returns-new-york-1485676"
+                            >Justice Department Argues for Presidential
+                            Immunity</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          The filing observes "a wide range of 'alternative
+                          remedies and deterrents' to presidential wrongdoing"
+                          that fall outside strict judicial action.
+                        </div>
+                        <ul class="related">
+                          <li>
+                            <a href="#"
+                              >Supreme Court to Take On Three Cases Related to
+                              Trump's Finances in 2020</a
+                            >
+                          </li>
+                        </ul>
+                      </article>
+                      <article>
+                        <div class="wrap">
+                          <div class="category">
+                            <a href="#">Politics</a>
+                          </div>
+                          <div class="image">
+                            <a href="#">
+                              <img
+                                src="./assets/images/gretchen-whitmer-michigan-democratic-governor.jpg"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <h3>
+                          <a
+                            href="/trump-supreme-court-tax-returns-new-york-1485676"
+                            >What to Know About the Governor Delivering State of
+                            Union Response</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          Noted for her demands on bipartisan civility, Michigan
+                          Governor Gretchen Whitmer is set to respond to
+                          President Donald Trump's State of the Union address.
+                        </div>
+                        <!-- <ul class="related">
+                              <li>
+                                <a href="#"
+                                  >Supreme Court to Take On Three Cases Related to
+                                  Trump's Finances in 2020</a
+                                >
+                              </li>
+                            </ul> -->
+                      </article>
+                      <article>
+                        <div class="wrap">
+                          <div class="category">
+                            <a href="#">News</a>
+                          </div>
+                          <div class="image">
+                            <a href="#">
+                              <img
+                                src="./assets/images/diamond-princess-cruise-ship-japan-february-2020.jpg"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <h3>
+                          <a
+                            href="/trump-supreme-court-tax-returns-new-york-1485676"
+                            >More Than 3,700 People Quarantined on Cruise Ship
+                            Over Coronavirus Fears</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          Thousands of passengers and crew members on board the
+                          Diamond Princess cruise ship have been quarantined off
+                          the coast of Yokohama, near Tokyo, Japan.
+                        </div>
+                        <ul class="related">
+                          <li>
+                            <a href="#"
+                              >Wuhan Doctor Allegedly Silenced by Police for
+                              Trying to Alert People to Coronavirus Tests
+                              Positive for Virus</a
+                            >
+                          </li>
+                        </ul>
+                      </article>
+                      <article>
+                        <div class="wrap">
+                          <div class="category">
+                            <a href="#">Politics</a>
+                          </div>
+                          <div class="image">
+                            <a href="#">
+                              <img
+                                src="./assets/images/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.jpg"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <h3>
+                          <a
+                            href="/trump-supreme-court-tax-returns-new-york-1485676"
+                            >Jewish Protester Removed From Donald Trump Jr. Iowa
+                            Speech</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          The protester accused the president's son of spreading
+                          anti-Semitic conspiracy theories.
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                <div class="block block-ibtmedia-special-item">
+                  <div class="content">
+                    <div class="sponsor">
+                      <div class="wrap">
+                        <div class="category">SPONSORED INSIGHT</div>
+                        <div class="image">
+                          <img
+                            src="./assets/images/tokyo-my-city-chizu-nakamoto.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h3>
+                          <a
+                            href="http://pubads.g.doubleclick.net/gampad/clk?id=5285600861&amp;iu=/43459271/newsweek/homepage"
+                            target="_blank"
+                            >Female Entrepreneur Active in Tokyo and Uganda</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          APT Women aims to foster and educate fledgling global
+                          business leaders like Chizu Nakamoto.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block block-ibtmedia-special-item">
+                  <div class="content">
+                    <div class="sponsor">
+                      <div class="wrap">
+                        <div class="category">SPONSORED INSIGHT</div>
+                        <div class="image">
+                          <img src="./assets/images/adelphi-university.jpg" />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h3>
+                          <a
+                            href="https://www.newsweek.com/insights/leading-nursing-programs-2019"
+                            target="_blank"
+                            >Nurses - The Real Medical Heroes of 2020</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          We’re used to doctors bustling in and out when in
+                          hospital, but it’s the reassuring presence and
+                          professionalism of the nursing staff that we rely on.
+                          What sets the best ones apart?
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block block-ibtmedia-special-item">
+                  <div class="content">
+                    <div class="sponsor">
+                      <div class="wrap">
+                        <div class="category">NYC</div>
+                        <div class="image">
+                          <img
+                            src="assets/images/meet-adam-lambert-new-york-city.png"
+                          />
+                        </div>
+                        <div class="info">
+                          <h3>
+                            <a
+                              href="/sponsored/contests/meet-adam-lambert-nyc"
+                              target="_blank"
+                              >Meet Adam Lambert in New York City!</a
+                            >
+                          </h3>
+                          <div class="summary">
+                            Enter the sweepstake for your chance to meet music
+                            sensation Adam Lambert and attend the live taping of
+                            his appearance on Newsweek Conversations.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block block-ibtmedia-special-item">
+                  <div class="content">
+                    <div class="sponsor">
+                      <div class="wrap">
+                        <div class="category">SPONSORED INSIGHT</div>
+                        <div class="image">
+                          <img
+                            src="./assets/images/schochor-federico-staton-p-v3.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h3>
+                          <a
+                            href="https://www.newsweek.com/insights/best-personal-injury-attorneys-2019-2020"
+                            target="_blank"
+                            >If You or a Loved One Has Been Injured, Who Can
+                            Champion Your Cause?</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          Logic dictates that when you need a good personal
+                          injury attorney, you’re going to be in a stressful,
+                          vulnerable and overwhelming situation. It is vital
+                          that you speak to an attorney who can ensure that you
+                          are not taken advantage of. We look at some of the
+                          leaders in the field.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block block-ibtmedia-special-item">
+                  <div class="content">
+                    <div class="sponsor">
+                      <div class="wrap">
+                        <div class="category">SPONSORED INSIGHT</div>
+                        <div class="image">
+                          <img
+                            src="./assets/images/peabody-college-education-human-development-vanderbilt.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h3>
+                          <a
+                            href="https://www.newsweek.com/insights/leading-teacher-education-programs-2020"
+                            target="_blank"
+                            >Embark on a Career in Teaching With a Leading
+                            School</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          Teachers are more in demand than ever, and the rewards
+                          for a career as an educator are numerous and generous.
+                          Find out how to get involved.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block block-ibtmedia-special-item">
+                  <div class="content">
+                    <div class="sponsor">
+                      <div class="wrap">
+                        <div class="category">SPONSORED INSIGHT</div>
+                        <div class="image">
+                          <img src="./assets/images/nw-kobe-sponsor.jpg" />
+                        </div>
+                      </div>
+                      <div class="info">
+                        <h3>
+                          <a
+                            href="http://pubads.g.doubleclick.net/gampad/clk?id=5287646592&amp;iu=/43459271/newsweek/homepage"
+                            target="_blank"
+                            >Newsweek Kobe Commemorative Edition</a
+                          >
+                        </h3>
+                        <div class="summary">
+                          Kobe Bryant will forever remain in the hearts of
+                          basketball fans as one of the greatest to ever play
+                          the sport. Celebrate his life with the Newsweek
+                          Commemorative Edition, featuring photos and stories of
+                          the Black Mamba’s incredible legacy both on and off
+                          the court.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col2">
+              <div class="sticky2">
+                <div class="flex-sm fd-c">
+                  <div class="block block-nw order-1">
+                    <div class="feature2">
+                      <div class="block-title">
+                        Top Story
+                      </div>
+                      <article>
+                        <div class="wrap">
+                          <div class="category">
+                            <a href="/politics">Politics</a>
+                          </div>
+                          <div class="image">
+                            <a
+                              href="/republicans-rally-around-mitt-romney-after-calls-his-expulsion-gop-over-vote-convict-trump-1485970"
+                              ><picture class="mapping-md">
+                                <img
+                                  src="https://d.newsweek.com/en/full/1565407/republicans-come-romneys-support-after-impeachment.jpg?w=591&amp;h=364&amp;f=2b658e3e731ae9724086f75a5f89ae18"
+                                  class="mapping-md"
+                                /> </picture
+                            ></a>
+                          </div>
+                        </div>
+                        <h1 class="h2">
+                          <a
+                            href="/republicans-rally-around-mitt-romney-after-calls-his-expulsion-gop-over-vote-convict-trump-1485970"
+                            >Republicans Rally Around Mitt Romney After Calls
+                            for His Expulsion From GOP</a
+                          >
+                        </h1>
+                        <div class="summary">
+                          News that Romney would split his votes to convict
+                          President Donald Trump for one of the articles of
+                          impeachment quickly riled the world of conservative
+                          politics.
+                        </div>
+                        <ul class="related">
+                          <li>
+                            <a
+                              href="/senators-who-voted-convict-trump-represent-18-million-more-americans-those-who-voted-acquit-1485972"
+                              itemprop="relatedLink"
+                              >Senators Who Voted to Convict Trump Represent 18
+                              Million More Americans Than Those Who Voted to
+                              Acquit</a
+                            >
+                          </li>
+                        </ul>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="culture-stories order-2">
+                    <div class="block-title">
+                      <a href="/culture">Culture &amp; Travel</a>
+                    </div>
+                    <div class="culture-items flex-sm flex-wrap">
+                      <div class="culture-item">
+                        <div class="image">
+                          <a
+                            href="/rising-teen-star-koffee-gives-reggae-jolt-mainstream-1485471"
+                          >
+                            <picture
+                              width="397"
+                              height="265"
+                              class="mapping-mobile lazysize"
+                              style="padding-bottom: 66.7506%;"
+                            >
+                              <img
+                                class="mapping-mobile lazysize lazyloaded"
+                                src="https://d.newsweek.com/en/full/1565011/koffee-reggae-singer.jpg?w=397&amp;h=265&amp;f=84976fc68c362f53a02453d07063e9d0"
+                              />
+                            </picture>
+                          </a>
+                        </div>
+                        <div class="info">
+                          <div class="title">
+                            <a
+                              href="/rising-teen-star-koffee-gives-reggae-jolt-mainstream-1485471"
+                              >Rising Teen Star Koffee Gives Reggae a Jolt to
+                              the Mainstream</a
+                            >
+                          </div>
+                          <div class="summary">
+                            Though Jamaican artists have been pigeon-holed or
+                            marginalized, they're finally taking off stateside.
+                            Meet Koffee, the first female artist to take home
+                            the Grammy for best reggae album—at 19 years old.
+                          </div>
+                          <div class="tags">
+                            <a href="social-tags/music" class="active">Music</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="culture-item">
+                        <div class="image">
+                          <a
+                            href="/2020/02/07/choose-your-own-high-stakes-adventure-1484709.html"
+                          >
+                            <picture
+                              width="397"
+                              height="265"
+                              class="mapping-mobile lazysize"
+                              style="padding-bottom: 66.7506%;"
+                            >
+                              <img
+                                data-src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.jpg?w=397&amp;h=265&amp;l=53&amp;t=46&amp;f=425beec66e56d27490eaf4fb8b62313d"
+                                alt="CUL_ExtremeVacations_Banner"
+                                title="CUL_ExtremeVacations_Banner"
+                                width="397"
+                                height="265"
+                                class="mapping-mobile lazysize lazyloaded"
+                                src="https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.jpg?w=397&amp;h=265&amp;l=53&amp;t=46&amp;f=425beec66e56d27490eaf4fb8b62313d"
+                              />
+                            </picture>
+                          </a>
+                        </div>
+                        <div class="info">
+                          <div class="title">
+                            <a
+                              href="/2020/02/07/choose-your-own-high-stakes-adventure-1484709.html"
+                              >High-Stakes Holidays That Cater to Thrill
+                              Seekers</a
+                            >
+                          </div>
+                          <div class="summary">
+                            Looking to up the ante on your next adventure? Here
+                            are some extreme vacations that will stimulate
+                            thrill seekers cerebral and physical predilections
+                            for danger, risk and fantasy.
+                          </div>
+                          <div class="tags">
+                            <a href="topic/travel" class="active">Travel</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="culture-item">
+                        <div class="image">
+                          <a
+                            href="/what-travelers-should-know-about-coronavirus-1484758"
+                          >
+                            <picture>
+                              <img
+                                data-src="https://d.newsweek.com/en/full/1563674/face-masks-arrival-asia.jpg?w=397&amp;h=265&amp;f=8d1deaa568e11c078015fb1253327907"
+                                alt="Face Masks Arrival to Asia"
+                                title="Face Masks Arrival to Asia"
+                                width="397"
+                                height="265"
+                                class="mapping-mobile lazysize lazyloaded"
+                                src="https://d.newsweek.com/en/full/1563674/face-masks-arrival-asia.jpg?w=397&amp;h=265&amp;f=8d1deaa568e11c078015fb1253327907"
+                              />
+                            </picture>
+                          </a>
+                        </div>
+                        <div class="info">
+                          <div class="title">
+                            <a
+                              href="/what-travelers-should-know-about-coronavirus-1484758"
+                              >What Travelers Should Know about the
+                              Coronavirus</a
+                            >
+                          </div>
+                          <div class="summary">
+                            If you are thinking about canceling a trip, or
+                            planning on continuing a trip to a country affected
+                            by the coronavirus, here's everything you need to
+                            know.
+                          </div>
+                          <div class="tags">
+                            <a href="topic/travel" class="active">Travel</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="culture-item">
+                        <div class="image">
+                          <a
+                            href="/how-hack-your-hotel-room-get-best-nights-sleep-1481075"
+                          >
+                            <picture>
+                              <img
+                                src="https://d.newsweek.com/en/full/1558562/hotel-room-bed.jpg?w=397&amp;h=265&amp;f=ed1a0340f070b91f3b55cc2e9a65b0fd"
+                              />
+                            </picture>
+                          </a>
+                        </div>
+                        <div class="info">
+                          <div class="title">
+                            <a
+                              href="/how-hack-your-hotel-room-get-best-nights-sleep-1481075"
+                              >How to Hack Your Hotel Room to Get the Best
+                              Night's Sleep</a
+                            >
+                          </div>
+                          <div class="summary">
+                            Curtains that won't shut? Noisy hallway? The
+                            Benjamin Hotel's sleep expert shares the secrets of
+                            how to sleep better when you're away from home.
+                          </div>
+                          <div class="tags">
+                            <a href="topic/travel" class="active">Travel</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <aside class="col-3"></aside>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

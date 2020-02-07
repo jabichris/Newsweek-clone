@@ -1,0 +1,367 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.page-header svg {
+  fill: white;
+}
+
+.page-header date {
+  display: none;
+  font: 16px/34px 'Roboto Condensed', sans-serif;
+  color: white;
+}
+.page-header .lk-3 {
+  background-color: white;
+  color: #f72210;
+}
+.col-3 {
+  margin: auto;
+}
+.fas {
+  color: red;
+}
+.page-header .lk-2,
+.page-header .lk-1 {
+  color: white;
+}
+.lk-3,
+.lk-2,
+.lk-1 {
+  position: relative;
+  font: bold 14px/14px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+}
+.lk-2 {
+  width: 62px;
+}
+.page-header .header-bottom {
+  background-color: white;
+  border-bottom-color: #f4f5f6;
+}
+
+.header-bottom {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index: 1;
+}
+ul.page-nav {
+  display: flex;
+}
+.page-header ul.page-nav {
+  color: black;
+}
+.page-nav a {
+  color: black;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.element-invisible {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+    center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+  position: absolute;
+  right: 52%;
+  top: 22%;
+}
+
+.page-header {
+  background-color: #f72210;
+}
+.colwrap .col1,
+.colwrap .col2,
+.colwrap .col3,
+.colwrap .col4 {
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.feature2 .block-title {
+  color: rgba(3, 3, 3, 0.4);
+}
+.block-title {
+  font: bold 16px/16px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(12, 11, 11, 0.8);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+}
+h1 {
+  font-size: 24px;
+  line-height: 24px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+}
+.feature2 .related {
+  font: bold 16px/20px 'Roboto Condensed', sans-serif;
+  color: black;
+  margin-top: 16px;
+}
+.culture-stories {
+  background-color: #f4f5f7;
+  margin-bottom: 20px;
+}
+.culture-stories .block-title {
+  color: rgba(3, 3, 3, 0.5);
+  padding: 10px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row .col-4 {
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.feature2 article {
+  padding-bottom: 20px;
+}
+.feature2 .wrap {
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
+}
+.feature2 .category {
+  display: block;
+  font: bold 17px/16px 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.image picture {
+  width: 591px;
+  height: auto;
+  padding-bottom: 61.5905%;
+}
+
+.feature2 .related li {
+  border-top: 1px solid #d9d9d9;
+  padding: 10px 0;
+}
+.feature2 .h2 {
+  font-size: 22px;
+  line-height: 24px;
+}
+.sponsor {
+  padding-bottom: 30px;
+}
+.sponsor .category {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+}
+.sponsor .info {
+  border: 1px solid #e6e6e6;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.info h1,
+.info h2,
+.info h3,
+.info h4,
+.info h5,
+.info h6 {
+  display: inline-block;
+}
+.sponsor .wrap {
+  position: relative;
+  min-height: 33px;
+}
+.sticky1 {
+  position: static;
+  left: 0;
+  top: 0;
+  width: auto;
+}
+.sticky2 {
+  position: static;
+  left: 0px;
+  top: 0px;
+  width: auto;
+}
+.fd-c {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.col1 {
+  position: relative;
+  height: 4163px;
+}
+.col2 {
+  position: relative;
+  height: 3179px;
+}
+.order-1 {
+  -webkit-order: 1;
+  order: 1;
+}
+.culture-items {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.culture-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.culture-item .info {
+  padding: 15px 10px 20px;
+}
+.culture-item .title {
+  color: #272727;
+  font: 20px/22px 'Lora', serif;
+  margin-bottom: 10px;
+}
+.culture-item .summary {
+  font: 15px/20px 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+  margin-bottom: 10px;
+}
+.culture-item .tags {
+  font: 300 13px/20px 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  color: #272727;
+}
+.culture-item .tags a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+@media screen and (min-width: 992px) {
+  .colwrap .col4 {
+    width: 71%;
+  }
+  .colwrap .col2 {
+    width: 59%;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  ul.page-nav li:first-child {
+    border-left-width: 0;
+  }
+  .page-header ul.page-nav li {
+    border-left-color: #d9d9d9;
+  }
+  ul.page-nav li {
+    flex-grow: 1;
+    text-align: center;
+    border-left-width: 1px;
+    border-left-style: solid;
+  }
+  .col4 {
+    position: relative;
+    height: 4317px;
+  }
+  .header-bottom::before {
+    width: 66px;
+  }
+  .search {
+    padding-left: 10px;
+    margin-right: 0;
+  }
+  .col4 .header-bottom {
+    padding-right: 16px;
+  }
+  .page-header date {
+    display: block;
+    margin-left: 10px;
+  }
+  .colwrap .col1 {
+    width: 41%;
+  }
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .colwrap .col1 {
+    width: 45%;
+  }
+  .h2 {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .feature2 .related {
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .colwrap .col2 {
+    width: 55%;
+  }
+  .flex-sm {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .culture-item {
+    width: 50%;
+  }
+}
