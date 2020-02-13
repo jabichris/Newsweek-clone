@@ -117,6 +117,7 @@ a {
 
 .page-header {
   background-color: #f72210;
+  padding-top: 1%;
 }
 
 .col1 {
@@ -664,7 +665,7 @@ h4 {
 }
 
 .ai-fe {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .page-footer .brand svg {
@@ -730,6 +731,10 @@ h4 {
   max-width: 80%;
 }
 
+.menu-id {
+  display: none;
+}
+
 @media screen and (min-width: 1200) {
   .col-lg-8 {
     width: 66.66666667%;
@@ -758,7 +763,6 @@ h4 {
 @media screen and (min-width: 992px) {
   .col4 {
     position: relative;
-    height: 4317px;
   }
 
   .colwrap .col4 {
@@ -863,25 +867,33 @@ h4 {
     flex: 0 0 0%;
   }
 
+  .page-header {
+    height: 56px;
+  }
+
   .page-header svg {
     width: 120px;
-    margin-top: 5%;
+    margin-top: 2%;
   }
 
   #subscribe {
     display: flex;
-    max-width: 37%;
+    max-width: 25%;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 0;
     margin-left: 0;
-    flex: 0 0 27%;
+    flex: 0 0 25%;
+  }
+
+  #menu-icon {
+    display: inline;
+    font-size: 25px;
+    align-self: center;
   }
 
   .menu {
     display: inline;
-    font-size: 25px;
-    align-self: center;
   }
 
   .footer-links .menu {
@@ -893,10 +905,8 @@ h4 {
   }
 
   .col-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 65%;
     max-width: 65%;
-    margin-bottom: 3%;
   }
 }
 
@@ -1045,6 +1055,11 @@ h4 {
     max-width: 100%;
     margin-bottom: 1%;
   }
+
+  .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1109,11 +1124,50 @@ h4 {
   .magazine img {
     width: 100%;
   }
+
+  .col-6 {
+    flex: 0 0 54%;
+    max-width: 54%;
+  }
+
+  #subscribe {
+    display: flex;
+    max-width: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0;
+    margin-left: 0;
+    flex: 0 0 30%;
+  }
 }
 
 @media (min-width: 576px) {
   .col-sm-3 {
     flex: 0 0 25%;
     max-width: 25%;
+  }
+
+  .col-6 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  #date {
+    display: none;
+  }
+
+  .lk-3 {
+    font-size: 10px;
+  }
+
+  .lk-2 {
+    font-size: 10px;
   }
 }
