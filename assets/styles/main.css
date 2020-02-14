@@ -97,8 +97,7 @@ a {
 }
 
 .element-invisible {
-  background:
-    url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg)
     center/contain no-repeat white;
   width: 20px;
   height: 20px;
@@ -371,8 +370,7 @@ h4 {
   display: block;
   width: 29px;
   height: 28px;
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
 }
@@ -397,8 +395,7 @@ h4 {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background:
-    url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
     center/contain no-repeat;
 }
 
@@ -572,8 +569,7 @@ h4 {
   line-height: 58px;
   text-indent: 5px;
   text-align: center;
-  background:
-    url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
     0 0 / contain no-repeat;
   color: #e9212e;
 }
@@ -634,7 +630,7 @@ h4 {
 
 .subscribe-block .col-r .info {
   border: 1px solid #ebebeb;
-  padding: 20px;
+  padding: 7px;
 }
 
 .page-footer {
@@ -784,14 +780,6 @@ h4 {
     position: relative;
   }
 
-  #footer-subscribe {
-    max-width: 70%;
-  }
-
-  #footer-newsletter {
-    max-width: 30%;
-  }
-
   .subscribe-block .col-r .image {
     width: 50%;
   }
@@ -887,12 +875,19 @@ h4 {
     right: -30px;
   }
 
+  .col-md-5 {
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
+
   .col-md-7 {
-    width: 58.33333333%;
+    flex: 0 0 68%;
+    max-width: 68%;
+    margin-bottom: 1%;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   #date {
     margin: 0;
     flex: 0 0 0%;
@@ -938,6 +933,17 @@ h4 {
   .col-6 {
     flex: 0 0 65%;
     max-width: 65%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1%;
   }
 }
 
@@ -1069,18 +1075,7 @@ h4 {
   }
 
   .subscribe-block .col-l .info {
-    padding-left: 30px;
-  }
-
-  .col-md-5 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .col-md-7 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 1%;
+    padding-left: 7px;
   }
 
   .col-md-3 {
@@ -1089,7 +1084,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .colwrap #sticky1,
   .colwrap #sticky2,
   .colwrap #sticky3,
@@ -1231,7 +1226,7 @@ h4 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
