@@ -4,7 +4,8 @@
 > This is the  project for learning pourposes
 
 
-#### Link to live view
+## Link to live view
+https://raw.githack.com/jabichris/Newsweek-clone/develop/index.html
 
 ## Built With
 
