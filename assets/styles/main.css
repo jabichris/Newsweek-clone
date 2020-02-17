@@ -569,8 +569,9 @@ h4 {
   line-height: 58px;
   text-indent: 5px;
   text-align: center;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
-    0 0 / contain no-repeat;
+  background: 
+    url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+      0 0 / contain no-repeat;
   color: #e9212e;
 }
 
@@ -945,6 +946,7 @@ h4 {
     max-width: 100%;
     margin-bottom: 1%;
   }
+
   #editors-pick {
     flex: 0 0 50%;
     max-width: 50%;
